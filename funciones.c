@@ -44,7 +44,7 @@ void verdatos(char nombres[5][30], float *tiempo, int *recursos, int *demanda, f
 
     for (int i = 0; i < 5; i++)
     {
-        /* Filtro de Eliminación Lógica: Solo procesar si el estado es 1 (activo) */
+        /* Filtro de Eliminación Lógica: Solo procesar si el estado es 1 (activo)  */
         if (estado[i] == 1) 
         {
             /*Calcular tiempo y recursos segun la demanda*/
